@@ -2,4 +2,16 @@
 name = "quant-sight"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.116.1",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "scikit-learn>=1.7.1",
+    "streamlit>=1.47.1",
+    "torch>=2.7.1",
+    "transformers>=4.54.1",
+    "uvicorn[standard]>=0.35.0",
+    "xgboost>=3.0.3",
+    "yfinance>=0.2.65",
+]
